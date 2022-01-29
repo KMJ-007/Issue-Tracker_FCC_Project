@@ -47,13 +47,13 @@
 1. Clone the repository
 
 ```bash
-git clone https://github.com/KMJ-007/headerParser-Api-Microservice.git
+git clone https://github.com/KMJ-007/Issue-Tracker_FCC_Project.git
 ```
 
 2. Change the working directory
 
 ```bash
-cd headerParser-Api-Microservice
+cd Issue-Tracker_FCC_Project
 ```
 
 3. Install dependencies
