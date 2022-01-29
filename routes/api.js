@@ -46,7 +46,7 @@ module.exports = function(app) {
 
     .post(async(req, res) => {
         let project = req.params.project;
-        // let {issueTitle,issueText,createdBy,assignedTo,statusText}= req.body;
+
         let issueTitle = req.body.issue_title,
             issueText = req.body.issue_text,
             createdBy = req.body.created_by,
@@ -110,12 +110,10 @@ module.exports = function(app) {
         }
 
 
-        // will add all non empty values to this
         let update = {
             "updated_on": Date.now()
         };
 
-        //check to close
         const open = req.body.open
         if (open == "true") {
             update["open"] = false;
@@ -151,7 +149,6 @@ module.exports = function(app) {
                         _id: id
                     })
                 }
-                //https://github.com/Automattic/mongoose/issues/5354
             });
 
     })
