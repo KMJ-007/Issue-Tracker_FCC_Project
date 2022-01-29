@@ -1,7 +1,7 @@
 # [Issue Tracker](https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/issue-tracker)
 
 
-## This project part of free code camp quality assurance module, i learned mocha-chai for testing.  
+## This project is part of free code camp quality assurance module, i learned mocha-chai for testing.  
 ### live demo [here](https://issue-trackerfccproject.karanmj.repl.co/)
   
  
